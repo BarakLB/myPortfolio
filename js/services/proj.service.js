@@ -26,8 +26,8 @@ function createProjects() {
   projects.push(createProj('book-shop', 'Bookshop', 'Buy Books Here', 'img/portfolio/bookshop.jpg'))
   projects.push(createProj('pacman', 'Pacman', 'JS Game', 'img/portfolio/pacman.jpg'))
   projects.push(createProj('todo-mvc', 'Todo-MVC', 'Little JS Project', 'img/portfolio/todo-mvc.jpg'))
-  projects.push(createProj('GuessMe-Ex', 'Guesswho', 'JS Game', 'img/portfolio/guesswho.jpg'))
-  projects.push(createProj('card-game', 'Card-game', 'JS Game', 'img/portfolio/card-game.jpg'))
+  projects.push(createProj('GuessMe-Ex', 'Guesswho', 'Think of someone...', 'img/portfolio/guesswho.jpg'))
+  projects.push(createProj('card-game', 'Card-game', 'Guessing JS game', 'img/portfolio/card-game.jpg'))
   return projects
 }
 

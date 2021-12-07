@@ -18,8 +18,7 @@ function init() {
 
 
 function renderProjects() {
-  var projects = createProjects();
-  var strHtmls = projects.map(function (project) {
+  var strHtmls = gProjects.map(function (project) {
     return `<div class="col-md-4 col-sm-6 portfolio-item">
       <a class="portfolio-link" data-toggle="modal" href="#portfolioModal" onclick="openModal('${project.id}')">
             
